@@ -1,0 +1,20 @@
+{
+  "questions": [
+    {
+      "name": "How many fingers are on your hand?",
+      "answers": [ "Under 4", "4", "5", "6", "More than 6" ]
+    },
+    {
+      "name": "Is the wall solid?",
+      "answers": [ "Yes", "No" ]
+    },
+    {
+      "name": "Are you dreaming?",
+      "answers": [ "Yes", "No" ]
+    }
+    //{
+    //  "name": "letters",
+    //  "answers": [ "A", "B", "C" ]
+    //}
+  ]
+}

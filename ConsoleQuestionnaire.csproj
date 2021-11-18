@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <Authors>Richard W. G. Earl</Authors>
+    <Company>Richard W. G. Earl</Company>
+    <Copyright>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</Copyright>
+    <NeutralLanguage>en</NeutralLanguage>
+    <Product>Console Questionnaire</Product>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="QuestionsAndAnswers.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+</Project>
